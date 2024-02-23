@@ -8,7 +8,8 @@ This directory contains a C program implementing the Strassen algorithm for matr
    - Ensure you have a C compiler installed.
    - Install GSL :
      
-     [![Build GNU Scientific Library in Linux]]([https://www.youtube.com/watch?v=dKBLJN4x_7A])
+     [![Build GNU Scientific Library in Linux](https://www.youtube.com/watch?v=dKBLJN4x_7A)](https://www.youtube.com/watch?v=dKBLJN4x_7A)
+
 
 
 2. **Clone Repository:**
