@@ -7,7 +7,7 @@ This directory contains a C program implementing the Strassen algorithm for matr
 1. **Prerequisites:**
    - Ensure you have a C compiler installed.
    - Install GSL. 
-   - [![Video Title](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)]([https://www.youtube.com/watch?v=dKBLJN4x_7A])
+   - [![Build GNU Scientific Library in Linux](https://img.youtube.com/vi/dKBLJN4x_7A/0.jpg)]([https://www.youtube.com/watch?v=dKBLJN4x_7A])
 
 
 2. **Clone Repository:**
@@ -20,6 +20,7 @@ This directory contains a C program implementing the Strassen algorithm for matr
      ```bash
      gcc -Wall -c -I/.../gsl/gsl-install/include main.c
      gcc -Wall -c -I/mnt/c/Users/maron/Downloads/gsl/gsl-install/include main.c // Exemple
+
      
      ```bash
      gcc -L/.../gsl/gsl-install/lib main.o -lgsl -lgslcblas -lm
@@ -28,6 +29,7 @@ This directory contains a C program implementing the Strassen algorithm for matr
      ```bash
      gcc -Wall -c -IC:\\...\\gsl\\gsl-install\\include main.c
      gcc -Wall -c -IC:\\Users\\maron\\Downloads\\gsl\\gsl-install\\include main.c // Exemple
+
      
      ```bash
      gcc -LC:\\...\\gsl\\gsl-install\\lib main.o -lgsl -lgslcblas -lm
